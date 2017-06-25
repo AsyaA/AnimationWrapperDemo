@@ -10,6 +10,7 @@
 
         .animate {
             animation: myAnimation 3s infinite linear;
+            animation-fill-mode: forwards;
         }
 
         @keyframes myAnimation {
